@@ -1,4 +1,4 @@
-# ModalStylePushSegue
+# HRModalStylePushSegue
 
 A segue subclass to alter the Push transition from one view controller to another.
 

@@ -1,17 +1,17 @@
 //
-//  ModalStylePushSegue.m
-//  ModalStylePushSegue
+//  HRModalStylePushSegue.m
+//  HRModalStylePushSegue
 //
 //  Created by Harry Richardson on 22/07/2013.
 //  Copyright (c) 2013 Harry Richardson. All rights reserved.
 //
 
-#import "ModalStylePushSegue.h"
+#import "HRModalStylePushSegue.h"
 #import "QuartzCore/QuartzCore.h"
 
 static NSTimeInterval const kTransitionDuration = 0.5f;
 
-@interface ModalStylePushSegue()
+@interface HRModalStylePushSegue()
 
 @property (nonatomic, strong) UIViewController *sourceController;
 @property (nonatomic, strong) UIViewController *destinationController;
@@ -23,7 +23,7 @@ static NSTimeInterval const kTransitionDuration = 0.5f;
 @end
 
 
-@implementation ModalStylePushSegue
+@implementation HRModalStylePushSegue
 
 -(void)perform
 {    
